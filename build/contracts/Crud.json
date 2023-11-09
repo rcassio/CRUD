@@ -1,0 +1,80 @@
+{
+  "contractName": "Crud",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Crud.sol\":\"Crud\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Crud.sol\":{\"keccak256\":\"0x79a98b64b0f082fd8d6741088caaa5239ca2323784f6f469b1a8c45c1f0759de\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://048202089f4e83ee6efb8b97b3b159b8630f3d28b6c14e91c92061be2621a06e\",\"dweb:/ipfs/QmaLhoF3e5gUZtUb9paSrKL67G2xsL33q476mFG5pmZhFc\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220153acb7672bf6cf1cd3dca327f44dde5304a8d5352c62263ba6ffb5360dee1e264736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220153acb7672bf6cf1cd3dca327f44dde5304a8d5352c62263ba6ffb5360dee1e264736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "61:24:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "61:24:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT \r\npragma solidity ^0.8.0;\r\n\r\ncontract Crud {\r\n    \r\n}",
+  "sourcePath": "C:\\Users\\cassi\\Documents\\DApps\\CRUD\\contracts\\Crud.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Crud.sol",
+    "exportedSymbols": {
+      "Crud": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "34:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Crud",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "61:24:0"
+      }
+    ],
+    "src": "34:51:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x3C73156e49EABc7b2b5b8B4E0F2C898cFF686B98",
+      "transactionHash": "0xe97eba292e3045c1bdc2df307acf20d7a474b8bdd7c004da0cdeb19a1552c972"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2023-11-09T11:56:09.143Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
