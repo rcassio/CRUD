@@ -57,23 +57,28 @@ const initApp = () => {
   $create.addEventListener('submit', (e) => {
     e.preventDefault();
     const name = e.target.elements[0].value;
-    crud.methods.create(name).send({from: accounts[0]})
+    crud.methods
+    .create(name)
+    .send({from: accounts[0]})
     .then(result => {
       $createResult.innerHTML = `New user ${name} successfully created`;
     })
     .catch(_e => {
-      $createResult.innerHTML = 'Ooops... there was an error while trying to create a new user...';
+      $createResult.innerHTML = `Ooops... there was an error while trying to create a new user...`;
     });
   });
 
   $read.addEventListener('submit', (e) => {
     e.preventDefault();
     const id = e.target.elements[0].value;
-    crud.methods.read(id).call()
+    crud.methods
+    .read(id)
+    .call()
     .then(result => {
       $readResult.innerHTML = `Id: ${result[0]} Name: ${result[1]}`;
     })
     .catch(_e => {
+      console.log(`O erro é ${_e}`);
       $readResult.innerHTML = `Ooops... there was an error while trying to read user ${id}`;
     });
   });
